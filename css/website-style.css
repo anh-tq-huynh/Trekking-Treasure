@@ -1,0 +1,249 @@
+
+/*
+#b2aa8e: Khaki
+#0c1b33: Oxford Blue
+#4e8098: Air Force blue
+#1e441e: Cal Poly Green
+#2a7221: Office green
+ */
+html {
+    font-family: "Host Grotesk", sans-serif;
+    background-color: #b2aa8e;
+    margin: 0;
+}
+body {
+    margin: 0;
+
+}
+
+nav {
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    position:fixed;
+    align-items: center;
+
+}
+#logo_header {
+    width: 20%;
+    height: auto;
+    box-sizing: border-box;
+    margin:0;
+}
+
+#logo_header img {
+    object-fit: contain;
+    max-height: 4rem;
+}
+
+nav ul {
+    width: 80%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    justify-content: flex-end;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+nav ul li {
+
+    height: 2rem;
+    text-align: center;
+    padding:0 4rem 0 4rem;
+
+}
+li a {
+    font-size: 120%;
+    text-decoration: none;
+    color: #0c1b33;
+}
+
+li a:hover {
+    color: #2a7221;
+    font-weight: bold;
+    text-decoration: underline;
+}
+#home {
+    background-image:
+            linear-gradient( to bottom, rgba(0, 0, 0, 0.2) , rgba(0, 0, 0, 0.8)),
+            url("../images/background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    clear: both;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#home h1 {
+    font-size: 6rem;
+    color: floralwhite;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 0;
+    margin: 8rem 0 0 0;
+}
+
+#home img {
+    width: 30%;
+    height: 12rem;
+    padding: 0;
+    margin: 0;
+    object-fit: contain;
+
+}
+#home p {
+    font-size: 120%;
+    font-weight: lighter;
+    color: floralwhite;
+    width: 80%;
+    background-color: rgba(12, 27, 51, 0.8);
+    padding: 1rem;
+    border-radius: 15px;
+    margin: 0 0 2rem;
+}
+
+
+section {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+
+}
+
+h2 {
+    width: 100%;
+    font-size: 3rem;
+    margin-left: 5rem;
+    margin-bottom: 2rem;
+    margin-top: 3rem;
+}
+figure {
+    width: 100%;
+    justify-content: center;
+    margin-left: 0;
+    margin-top:0;
+    margin-bottom: 0;
+}
+
+figcaption {
+    font-style: italic;
+    font-size: 90%;
+    margin-top:0;
+    margin-left: 1rem;
+    padding: 0;
+
+}
+.cover-img {
+    max-height: 20rem;
+    width: 90%;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-left: 5rem;
+    padding: 0;
+}
+
+p{
+    width: 90%;
+    font-size: 120%;
+    margin-left: 5rem;
+    margin-bottom: 5rem;
+
+}
+article {
+    width: calc(100%/3 - 5%);
+    background-color: rgb(204, 195, 163);
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 15px;
+    border: 0.1rem solid #0c1b33;
+    box-shadow: 5px 10px 8px rgba(18, 40, 77, 0.5);
+}
+
+
+img {
+    object-fit: cover;
+    width: 100%;
+    max-height: 30rem;
+    aspect-ratio: 1/1;
+    border-radius: 1rem;
+    margin: 0.5rem 1rem 0.5rem;
+}
+article p{
+    width: 100%;
+    margin: 1rem;
+    font-size: 100%;
+}
+
+h3 {
+    width: 100%;
+    font-size: 120%;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    margin-bottom: 0;
+}
+#contact {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#contact-info {
+    width: 30%;
+    text-align: left;
+
+}
+#contact-info p {
+    font-size: 80%;
+    padding-bottom: 0;
+    padding-left: 3rem;
+    margin:0;
+}
+#map {
+    width: 60%;
+    padding: 0 2rem 2rem 0;
+}
+@media screen and (max-width: 769px) {
+    #home h1 {
+        font-size: 3rem;
+    }
+    #home img {
+        width: 40%;
+    }
+    #home p {
+        font-size: 80%;
+    }
+    h2 {
+        padding-left: 1rem;
+    }
+    .cover-img {
+        width: 85%;
+    }
+    p {
+        width: 85%;
+    }
+    article{
+        width: 80%;
+        margin-bottom: 1rem;
+    }
+
+    #contact-info {
+        width: 100%;
+        margin-left:3rem;
+        margin-bottom: 2rem;
+    }
+    #map {
+        width: 80%;
+        max-height: 40rem;
+        margin-left: 3rem;
+    }
+}
+
