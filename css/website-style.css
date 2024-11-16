@@ -167,7 +167,8 @@ article {
     flex-wrap: wrap;
     border-radius: 15px;
     border: 0.1rem solid #0c1b33;
-    box-shadow: 5px 10px 8px rgba(18, 40, 77, 0.5);
+    box-shadow: 5px 10px 8px rgba(18, 40, 77, 0.2);
+
 }
 
 
