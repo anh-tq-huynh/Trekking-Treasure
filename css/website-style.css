@@ -6,6 +6,10 @@
 #1e441e: Cal Poly Green
 #2a7221: Office green
  */
+@font-face {
+    font-family: 'Host Grotesk';
+    src: url('../fonts/HostGrotesk-VariableFont_wght.ttf') format('truetype');
+}
 html {
     font-family: "Host Grotesk", sans-serif;
     background-color: #b2aa8e;
