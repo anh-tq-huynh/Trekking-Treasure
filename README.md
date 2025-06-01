@@ -20,7 +20,7 @@ cd <your-path>
 2. Clone the repository
 ```
 
-git clone https://github.com/anhhuy-ux/Trekking-Treasure
+git clone https://github.com/anh-tq-huynh/Trekking-Treasure
 ```
 3. Go to the main repository of Trekking-Treasure
 ```
